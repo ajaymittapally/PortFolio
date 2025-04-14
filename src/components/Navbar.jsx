@@ -70,7 +70,7 @@ export default function Navbar({menuOpen,setMenuOpen}){
                                 to="/about" 
                                 className={`relative text-gray-300 hover:text-white transition-colors duration-300 group
                                 ${isActive('/about') ? 'text-white' : ''}`}>
-                                About
+                                Resume
                                 <span className={`absolute bottom-0 left-0 w-0 h-0.5 bg-blue-500 transition-all duration-300 group-hover:w-full
                                 ${isActive('/about') ? 'w-full' : ''}`}></span>
                             </Link>

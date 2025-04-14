@@ -5,7 +5,7 @@ export default function About() {
         <section id="about" className="min-h-screen py-20 bg-gradient-to-b from-[#0A1119] via-[#111827] to-[#0A1119]">
             <div className="max-w-7xl mx-auto px-4">
                 <h2 className="text-4xl md:text-5xl font-bold text-center mb-16 text-white bg-clip-text ">
-                    About Me
+                    Resume
                 </h2>
                 
                 
