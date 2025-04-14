@@ -17,7 +17,7 @@ export default function Home(){
                         Hi, I'm Ajay Mittapally
                     </h1>
                     <p className="font-gambetta text-gray-400 text-lg md:text-xl mb-8 max-w-lg leading-relaxed">
-                    Been coding with the MERN stack for 3.5+ years — basically long enough to know that console.log() is both a debugging tool and a lifestyle. I build React frontends so snappy they could slap you, and Node.js backends that handle logic smoother than a buttered otter. MongoDB and I? We’re in a love-hate relationship, but we make it work. I write code that ships, breaks, gets fixed at 2am, and somehow ends up in prod looking fire. If Stack Overflow ever goes down, I’ll simply ascend. Let’s make something so clean, DevTools blushes and Lighthouse gives us a standing ovation.
+                    Been coding with the MERN stack for 3.5+ years — basically long enough to know that <span className="text-blue-500">console.log()</span>  is both a debugging tool and a lifestyle. I build React frontends so snappy they could slap you, and Node.js backends that handle logic smoother than a buttered otter. MongoDB and I? We’re in a love-hate relationship, but we make it work. I write code that ships, breaks, gets fixed at 2am, and somehow ends up in prod looking fire. If Stack Overflow ever goes down, I’ll simply ascend. Let’s make something so clean, DevTools blushes and Lighthouse gives us a standing ovation.
                     </p>
                     
                     <div className="flex justify-center md:justify-start space-x-4">
