@@ -7,7 +7,7 @@ export default function Home(){
     return(
     <section 
         id="home" 
-        className="min-h-screen flex items-center justify-center relative">
+        className="min-h-screen flex items-center justify-center pt-16 sm:pt-0 relative">
            
             <div className="flex flex-col md:flex-row items-center justify-center gap-8 z-10 pt-24 px-4">
                 <div className="text-center md:text-left">
@@ -43,7 +43,7 @@ export default function Home(){
                     </div>
                 </div>
                 
-                <div className="relative p-1">
+                <div className="relative  p-1 mt-8 sm:mt-0">
                     <div className="absolute inset-0 rounded-full bg-gradient-to-r from-blue-600 via-cyan-500 to-blue-600 opacity-30
                         animate-[gradientAnimation_3s_ease-in-out_infinite] bg-[length:200%_200%]">
                         <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-blue-500/20 to-cyan-500/20 animate-[spin_8s_linear_infinite]" />
@@ -53,7 +53,7 @@ export default function Home(){
                     <img 
                         src={profileAnime} 
                         alt="Profile Anime Style" 
-                        className="relative w-[300px] h-[300px] rounded-full object-cover shadow-xl 
+                        className="mb-3 relative w-[260px] h-[260px] sm:w-[300px] sm:h-[300px] rounded-full object-cover shadow-xl 
                         transition-all duration-300 hover:scale-105 hover:shadow-lg"
                     />
                 </div>
