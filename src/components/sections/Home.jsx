@@ -17,7 +17,7 @@ export default function Home(){
                         Hi, I'm Ajay Mittapally
                     </h1>
                     <p className="font-gambetta text-gray-400 text-lg md:text-xl mb-8 max-w-lg leading-relaxed">
-                    With 3.5+ years of slingin’ code and building cool stuff using the MERN stack, I turn caffeine and ideas into sleek, high-performing web apps. From crafting pixel-perfect React UIs to wrangling backend logic with Node.js, I do it all — clean, fast, and with style. Whether it’s frontend flair or backend brains, I’m all about bringing awesome experiences to life on the web. Let’s build something epic!
+                    Been coding with the MERN stack for 3.5+ years — basically long enough to know that console.log() is both a debugging tool and a lifestyle. I build React frontends so snappy they could slap you, and Node.js backends that handle logic smoother than a buttered otter. MongoDB and I? We’re in a love-hate relationship, but we make it work. I write code that ships, breaks, gets fixed at 2am, and somehow ends up in prod looking fire. If Stack Overflow ever goes down, I’ll simply ascend. Let’s make something so clean, DevTools blushes and Lighthouse gives us a standing ovation.
                     </p>
                     
                     <div className="flex justify-center md:justify-start space-x-4">
