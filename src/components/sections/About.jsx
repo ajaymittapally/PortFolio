@@ -1,4 +1,6 @@
 import resumeData from "../../resume-json.json";
+import DownloadIcon from '@mui/icons-material/Download';
+import resume from "../../assets/resume.pdf";
 
 export default function About() {
     return (
@@ -181,6 +183,15 @@ export default function About() {
                         </div>
                     </div>
                 </div>
+            </div>
+            <div className="flex justify-center">
+            <a href={resume} download='resume'>
+                 <button  
+                 className=" flex items-center border border-blue-500/50 text-blue-500 py-3 px-6 rounded font-medium transition-all duration-200 
+                            hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.2)] hover:bg-blue-500/10">
+                            Resume <span className="text-gray-500 text-[8px] ml-2 w-1.5 "><DownloadIcon/></span>
+                </button>
+            </a>
             </div>
         </section>
     );

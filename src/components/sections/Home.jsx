@@ -1,8 +1,7 @@
 
 import profileAnime from "../../assets/profile-anime.png";
 import { Link } from "react-router-dom";
-import DownloadIcon from '@mui/icons-material/Download';
-import resume from "../../assets/resume.pdf";
+
 
 export default function Home(){
     return(
@@ -17,7 +16,8 @@ export default function Home(){
                         Hi, I'm Ajay Mittapally
                     </h1>
                     <h2 className="text-lg md:text-xl text-blue-400 font-medium mb-4">
-                         Full Stack Developer • React | Node | MongoDB
+                    <span className="block md:inline">Full Stack Developer</span>
+                    <span className="block md:inline md:ml-4">React | Node | MongoDB</span>
                     </h2>
                     <p className="font-gambetta text-gray-400 text-lg md:text-xl mb-8  max-w-md md:max-w-lg leading-relaxed">
                     Been coding with the MERN stack for 3.5+ years — basically long enough to know that <span className="text-blue-500">console.log()</span>  is both a debugging tool and a lifestyle. I build React frontends so snappy they could slap you, and Node.js backends that handle logic smoother than a buttered otter. MongoDB and I? We’re in a love-hate relationship, but we make it work. I write code that ships, breaks, gets fixed at 2am, and somehow ends up in prod looking fire. If Stack Overflow ever goes down, I’ll simply ascend. Let’s make something so clean, DevTools blushes and Lighthouse gives us a standing ovation.
@@ -37,12 +37,7 @@ export default function Home(){
                         >
                             Contact Me
                         </Link>
-                       <a href={resume} download='resume'>
-                        <button  className=" flex items-center border border-blue-500/50 text-blue-500 py-3 px-6 rounded font-medium transition-all duration-200 
-                            hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.2)] hover:bg-blue-500/10">
-                            Resume <span className="text-white text-[8px] ml-2 w-1.5"><DownloadIcon/></span>
-                        </button>
-                       </a>
+                       
                     </div>
                 </div>
                 
