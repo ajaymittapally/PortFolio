@@ -1,0 +1,144 @@
+{
+  "personalInfo": {
+    "name": "Ajay Mittapally",
+    "phone": "(470) 962-0998",
+    "email": "ajaymittapally70@gmail.com",
+    "links": {
+      "linkedin": "LinkedIn",
+      "github": "GitHub"
+    }
+  },
+  "workExperience": [
+    {
+      "company": "Quartet AI",
+      "location": "Atlanta, USA",
+      "position": "Software Engineer",
+      "duration": "Jan 2025 – Present",
+      "responsibilities": [
+        "Integrated React Query for smooth data fetching and caching, reducing page load times by 30% and user interaction.",
+        "Implemented server-side rendering (SSR) and static site generation (SSG) with Next.js to improve SEO and initial page loading times.",
+        "Enhanced application performance by the inclusion of code-splitting, lazy loading, and memoization, reducing the overall load time by 25% and increasing interactivity."
+      ]
+    },
+    {
+      "company": "Datics",
+      "location": "Atlanta, USA",
+      "position": "Software Engineer Intern",
+      "duration": "Jan 2024 – May 2024",
+      "responsibilities": [
+        "Assisted in designing and deploying RESTful APIs that facilitated communication between the platform's front-end and a PostgreSQL database, such as user authentication, product management, and order processing.",
+        "Using Redux and React Hooks, worked with senior engineers to establish state management, guaranteeing effective data flow in the e-commerce site.",
+        "Assisted in the optimization of REST API endpoints to offer product filtering and search capabilities that reduced server load and response times by 25%."
+      ]
+    },
+    {
+      "company": "Tata Consulting Services",
+      "location": "Hyderabad, India",
+      "positions": [
+        {
+          "title": "Software Developer",
+          "duration": "Sep 2021 – Dec 2022",
+          "responsibilities": [
+            "Created and optimized React.js front-end elements to retrieve, process, and render real-time financial data from third-party APIs, leading to enhanced UI responsiveness and customer experience, Leveraging React.js, JavaScript (ES6+), and Next.js.",
+            "Extended UI capabilities by introducing additional REST API endpoints, allowing users to calculate custom financial metrics on the fly.",
+            "Used proper state management using Redux, reducing duplicated API requests to enhance application efficiency and load times.",
+            "Led front-end migration of finance applications, refactoring components and porting legacy code to new React & TypeScript, with seamless compatibility with new APIs.",
+            "Contributed closely with backend developers to include real-time data streams using WebSockets, offering up-to-date financial data across multiple user sessions."
+          ]
+        },
+        {
+          "title": "Software Developer",
+          "duration": "Jan 2020 – Sep 2021",
+          "responsibilities": [
+            "Coded, managed and added features to 6 microservices in Python for migrating on-premise hospitality product to cloud",
+            "Reimagined intuitive UI and reducing clicks per task in Angular to improve operational efficiency for the migrated product",
+            "Reengineered Jenkins CI/CD pipelines to reduce the total build and deploy time by 30% saving 25 man-hours"
+          ]
+        }
+      ]
+    }
+  ],
+  "competencies": {
+    "languages": ["Java", "Python", "JavaScript", "CalScript", "SQL", "Bash Scripting", "HTML", "CSS"],
+    "frameworks": ["Flask", "Django", "Spring", "SpringBoot", "React", "Redux/Context API", "BootStrap CSS", "tailwind CSS"],
+    "cloud": ["Amazon Web Services", "AWS CLI", "S3"],
+    "skillset": ["Algorithms", "Data Structures", "microservices", "REST webservices", "Scrum and Kanban"],
+    "libsAndTechStacks": ["AWS", "AWS CLI", "Bash Scripting", "S3 Management", "Cloud computing", "Cloud practitioner", "Spring boot", "Django Rest", "MVC", "Microservices", "CI/CD", "Angular", "React", "SciPy", "Pandas", "NumPy", "Jenkins CI/CD", "Kubernetes", "Docker", "Oracle DB", "PostgresSQL", "MySQLDB", "Mongo DB", "Tomcat", "Weblogic server", "SQLAlchemy", "MongoDB"]
+  },
+  "education": [
+    {
+      "institution": "Kennesaw State University",
+      "location": "Marietta, Georgia",
+      "degree": "Master of Science",
+      "major": "Computer Science",
+      "graduationDate": "May 2024",
+      "courseWork": ["Advanced Algorithms", "Cloud Computing", "Database systems", "Machine Learning", "Cryptography"]
+    },
+    {
+      "institution": "Anurag Group of Institutions, CVSR",
+      "location": "Hyderabad, India",
+      "degree": "Bachelor of Engineering",
+      "major": "Electronics and Communication",
+      "gpa": "3.6/4.0",
+      "graduationDate": "May 2019",
+      "courseWork": ["Object Oriented Programming Java", "Computer Networks", "Cloud Computing IOT", "Big data analytics"]
+    }
+  ],
+  "projects": [
+    {
+      "name": "GERRNCART E-commerce Shopping site",
+      "description": "Created a full-fledged online shopping website using the MERN stack (MongoDB, Express.js, React, Node.js). Implemented JWT authentication, Stripe payment gateway, product filtering, shopping cart, and admin dashboard for inventory management. Built with TailwindCSS and Material UI components."
+    },
+    {
+      "name": "YouTube Clone",
+      "description": "Implemented an end-to-end clone of YouTube with video streaming, commenting feature, and subscriptions to channels. Employed React as the front-end technology and Redux for managing state, and the YouTube API for fetching data. Implementing responsive layout using CSS Grid and Flexbox."
+    },
+    {
+      "name": "Personal Portfolio Website",
+      "description": "Developed and crafted a professional portfolio showcasing projects and skills. Constructed with React frontend, Node.js backend, MongoDB for contact form submissions, and Express.js API routing. Implemented animations responsive layout with CSS Grid."
+    },
+    {
+      "name": "Reusable React Components",
+      "description": "Created reusable React components including:",
+      "components": [
+        "Interactive Accordion with customizable styling and animation options.",
+        "Star Rating system with half-star support and interactive hover effects.",
+        "Todo List application with local storage persistence, and category filtering.",
+        "Random Color Generator which generates random color palettes in both Hex and RGB formats."
+      ]
+    },
+    {
+      "name": "Chef Claude AI",
+      "description": "Developed a smart recipe generator application that produces customized recipes with ingredients entered by users. Integrated Claude AI API for recipe generation. Built with React, Express.js, Node.js, and styled with Tailwind CSS for a responsive and modern UI."
+    },
+    {
+      "name": "Deep Learning Model for CIFAR-100 Image Classification",
+      "description": [
+        "This project aims to develop a custom image classification model for the CIFAR-100 dataset by experimenting with deep learning models such as VGG16, ResNet, and Inception.",
+        "It uses techniques like transfer learning, hyperparameter tuning (learning rate, batch size), and data augmentation to optimize model performance.",
+        "The performance of the model is measured by accuracy, precision, recall, F1-score, and cross-validation, and compared with state-of-the-art approaches"
+      ]
+    },
+    {
+      "name": "AWS S3 Automation Using Bash",
+      "description": [
+        "Implemented Bash scripts to create, remove, and update S3 buckets, reflecting a good hand on AWS CLI and automation tools.",
+        "S3 bucket and local directory file synchronization automation to enable data storage procedures.",
+        "Utilized a Bash script to list objects in S3 buckets, making it easy to access stored data and manage information conveniently.",
+        "Better understanding of Bash scripting best practices and cloud storage solutions."
+      ]
+    }
+  ],
+  "achievementsAndCertifications": [
+    "Networks and Deep Learning – Deep learning AI",
+    "AWS Cloud Practitioner",
+    "Certified python developer (Hacker rank)",
+    "Bash Basic Certificate (Hacker rank)",
+    "SQL Basic Certificate (Hacker Rank)",
+    "Led of team of 50 to win silver in Entrepreneur Summit - national level, at IIT Bombay",
+    "Governed 3 sectors retail, event management, treasury, as President of DAKSHAT, Entrepreneur Development cell in college",
+    "Served as convenor for CVSR college cultural fest 2018 managing 12 different committees for various tasks",
+    "Won Silver in D-Zone arena 2k18, inter college state level table tennis championship",
+    "Headed Tech-Workshop under Institute of electronics and telecommunications (IETE) for 200 students on robotics"
+  ]
+}

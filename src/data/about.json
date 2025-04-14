@@ -1,0 +1,80 @@
+{
+    "skills": {
+        "frontend": [
+            "React.js",
+            "Next.js",
+            "TypeScript",
+            "JavaScript (ES6+)",
+            "Tailwind CSS",
+            "HTML5/CSS3",
+            "Redux",
+            "Material-UI",
+            "Responsive Design"
+        ],
+        "backend": [
+            "Node.js",
+            "Express.js",
+            "MongoDB",
+            "RESTful APIs",
+            "GraphQL",
+            "PostgreSQL",
+            "Firebase",
+            "AWS Services",
+            "Docker"
+        ],
+        "tools": [
+            "Git",
+            "VS Code",
+            "Postman",
+            "Jira",
+            "Figma",
+            "npm/yarn",
+            "Webpack",
+            "Jest",
+            "GitHub Actions"
+        ]
+    },
+    "experience": [
+        {
+            "company": "Tech Solutions Inc.",
+            "position": "Senior Full Stack Developer",
+            "period": "2022 - Present",
+            "description": "Led development of scalable web applications using MERN stack, improving system performance by 40%. Mentored junior developers and implemented CI/CD pipelines.",
+            "technologies": ["React", "Node.js", "MongoDB", "AWS", "Docker"]
+        },
+        {
+            "company": "Digital Innovations Ltd",
+            "position": "Full Stack Developer",
+            "period": "2020 - 2022",
+            "description": "Developed and maintained multiple client projects, implemented responsive designs, and integrated third-party APIs. Reduced loading time by 60%.",
+            "technologies": ["React", "Express.js", "PostgreSQL", "Redux", "TypeScript"]
+        },
+        {
+            "company": "WebTech Solutions",
+            "position": "Junior Developer",
+            "period": "2019 - 2020",
+            "description": "Collaborated on frontend development tasks, fixed bugs, and implemented new features. Participated in code reviews and team meetings.",
+            "technologies": ["JavaScript", "HTML/CSS", "React", "Node.js"]
+        }
+    ],
+    "education": [
+        {
+            "degree": "Bachelor of Technology in Computer Science",
+            "institution": "Technical University",
+            "year": "2019",
+            "achievements": "First Class with Distinction"
+        }
+    ],
+    "certifications": [
+        {
+            "name": "AWS Certified Developer",
+            "issuer": "Amazon Web Services",
+            "year": "2023"
+        },
+        {
+            "name": "MongoDB Certified Developer",
+            "issuer": "MongoDB University",
+            "year": "2022"
+        }
+    ]
+} 

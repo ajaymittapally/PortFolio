@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;500&display=swap');
+@import "tailwindcss";
+
+html,body{
+  margin: 0;
+  padding: 0;
+  background: #0a0a0a;
+  color: #f3f4f6;
+}
+
+.font-tanker {
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: 0.02em;
+}
+
+.font-gambetta {
+  font-family: 'Crimson Pro', serif;
+}
+
+@layer utilities {
+  @keyframes blink{
+    0%,100%{
+      opacity: 1;
+    }
+   
+  50%{
+    opacity: 0;
+  }
+}
+  @keyframes loading{
+    0%{
+    transform:translateX(-100%)
+  }
+  100%{
+    transform: translateX(250%);
+  }
+}
+
+  @keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+
+  @keyframes pulse {
+    0%, 100% { opacity: 0.1; }
+    50% { opacity: 0.3; }
+  }
+}
+
+.animate-loading-bar{
+  animation: loading 0.8s ease infinite;
+}
+.animate-blink{
+  animation: loading 0.8s step-end infinite;
+}
+
+.reveal{
+  opacity: 0;
+  transform:translateY(20px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+
+.reveal.visible{
+  opacity: 1;
+  transform: translateY(0);
+}
