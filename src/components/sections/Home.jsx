@@ -1,6 +1,6 @@
-
 import profileAnime from "../../assets/profile-anime.png";
 import { Link } from "react-router-dom";
+import resumeJson from "../../resume-json.json";
 
 
 export default function Home(){
@@ -19,10 +19,7 @@ export default function Home(){
                     <span className="block md:inline">Full Stack Developer</span>
                     <span className="block md:inline md:ml-4">React | Node | MongoDB</span>
                     </h2>
-                    <p className="font-gambetta text-gray-400 text-lg md:text-xl mb-8  max-w-md md:max-w-lg leading-relaxed">
-                    I’ve spent over 3.5 years building full-stack apps, with deep expertise in the MERN stack—React frontends, Node.js/Express backends, and MongoDB for data. It’s where I’ve delivered the most, refined best practices, and built production-grade systems.<br/>
-
-                    I also have solid experience building backends with Python (Flask, Django) and Java (Spring Boot), allowing me to adapt across different tech stacks as needed. Whether it’s building clean APIs, scaling services, or improving performance, I focus on writing reliable, maintainable code that delivers real impact.
+                    <p className="font-gambetta text-white/80 text-lg md:text-xl mb-8 max-w-md md:max-w-lg leading-relaxed" dangerouslySetInnerHTML={{ __html: resumeJson.HomeInfo }}>
                     </p>
                     
                     <div className="flex justify-center md:justify-start space-x-4">

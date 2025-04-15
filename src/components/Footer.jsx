@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import linkdin_logo from '../assets/linkdin.png'; 
 import github_logo from '../assets/github.png';
-
+import resumeJson from "../resume-json.json"
 export default function Footer(){
     const currentYear = new Date().getFullYear();
 
@@ -15,7 +15,7 @@ export default function Footer(){
                     <div className="space-y-4">
                         <h3 className="text-xl font-bold text-white">Ajay Mittapally</h3>
                         <p className="text-gray-400 max-w-xs">
-                            A passionate full-stack developer focused on creating interactive and user-friendly applications.
+                           {resumeJson.FooterInfo}
                         </p>
                         <div className="flex space-x-4 items-center">
                             <a 
