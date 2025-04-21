@@ -5,34 +5,35 @@
     "email": "ajaymittapally70@gmail.com",
     "links": {
       "linkedin": "LinkedIn",
-      "github": "GitHub"
+      "github": "GitHub",
+      "portfolio": "Portfolio"
     }
   },
-
-  "HomeInfo": "I've spent over 3.5 years building full-stack apps, with deep expertise in the MERN stack—React frontends, Node.js/Express backends, and MongoDB for data. It's where I've delivered the most, refined best practices, and built production-grade systems.<br/>I also have solid experience building backends with Python (Flask, Django) and Java (Spring Boot), allowing me to adapt across different tech stacks as needed. Whether it's building clean APIs, scaling services, or improving performance, I focus on writing reliable, maintainable code that delivers real impact.",
-  "FooterInfo": "Full-stack developer with a strong focus on crafting interactive, performance-optimized applications that elevate user experience and deliver real business value.",
-  
+  "HomeInfo":"Experienced Full Stack Developer with 5 years of expertise in crafting high-performance websites. Combining deep knowledge of UI libraries (React, Next.js) with strong backend capabilities (Java Spring Boot, Node, Express) and AWS to deliver responsive, scalable solutions that delight users. Committed to writing modular, fully tested code using industry-standards. Proven track record of delivering solutions that exceed both technical requirements and user expectations.",
+  "FooterInfo":"Full Stack developer",
   "workExperience": [
     {
       "company": "Quartet AI",
       "location": "Atlanta, USA",
       "position": "Software Engineer",
-      "duration": "Jan 2025 – Present",
+      "duration": "Aug 2024 – Present",
       "responsibilities": [
-        "Integrated React Query for smooth data fetching and caching, reducing page load times by 30% and user interaction.",
-        "Implemented server-side rendering (SSR) and static site generation (SSG) with Next.js to improve SEO and initial page loading times.",
-        "Enhanced application performance by the inclusion of code-splitting, lazy loading, and memoization, reducing the overall load time by 25% and increasing interactivity."
+        "Integrated React Query for efficient data fetching and caching, reducing load times by 30% and refining user experience.",
+        "Implemented SSR and SSG with Next.js to improve SEO, TTFB, and page load performance.",
+        "Enhanced performance using code-splitting, lazy loading, and memoization, reducing load time by 25%."
       ]
     },
     {
       "company": "Datics",
       "location": "Atlanta, USA",
-      "position": "Software Engineer Intern",
-      "duration": "Jan 2024 – May 2024",
+      "position": "Software Engineer",
+      "duration": "Aug 2023 – May 2024",
       "responsibilities": [
-        "Assisted in designing and deploying RESTful APIs that facilitated communication between the platform's front-end and a PostgreSQL database, such as user authentication, product management, and order processing.",
-        "Using Redux and React Hooks, worked with senior engineers to establish state management, guaranteeing effective data flow in the e-commerce site.",
-        "Assisted in the optimization of REST API endpoints to offer product filtering and search capabilities that reduced server load and response times by 25%."
+        "Developed REST APIs for authentication and product catalog using Java Spring Boot, Spring Security, Hibernate, and PostgreSQL.",
+        "Optimized endpoints with pagination, indexing, and caching to reduce server load and improve response times by 25%.",
+        "Integrated Swagger3 for API documentation and schema generation.",
+        "Built unit and regression tests using JUnit, Mockito, and TestNG.",
+        "Implemented scalable state management with Redux Toolkit and React Hooks."
       ]
     },
     {
@@ -43,31 +44,47 @@
           "title": "Software Developer",
           "duration": "Sep 2021 – Dec 2022",
           "responsibilities": [
-            "Created and optimized React.js front-end elements to retrieve, process, and render real-time financial data from third-party APIs, leading to enhanced UI responsiveness and customer experience, Leveraging React.js, JavaScript (ES6+), and Next.js.",
-            "Extended UI capabilities by introducing additional REST API endpoints, allowing users to calculate custom financial metrics on the fly.",
-            "Used proper state management using Redux, reducing duplicated API requests to enhance application efficiency and load times.",
-            "Led front-end migration of finance applications, refactoring components and porting legacy code to new React & TypeScript, with seamless compatibility with new APIs.",
-            "Contributed closely with backend developers to include real-time data streams using WebSockets, offering up-to-date financial data across multiple user sessions."
+            "Migrated finance application front-end from PHP to React + TypeScript ensuring API compatibility.",
+            "Built UI for real-time financial data with React, JavaScript (ES6+), and Next.js.",
+            "Used Redux to reduce duplicate API calls and improve performance.",
+            "Expanded Java Spring Boot REST APIs for dynamic financial calculations.",
+            "Mentored junior developers on React and Spring Boot."
           ]
         },
         {
-          "title": "Software Developer",
+          "title": "Associate Software Developer",
           "duration": "Jan 2020 – Sep 2021",
           "responsibilities": [
-            "Coded, managed and added features to 6 microservices in Python for migrating on-premise hospitality product to cloud",
-            "Reimagined intuitive UI and reducing clicks per task in Angular to improve operational efficiency for the migrated product",
-            "Reengineered Jenkins CI/CD pipelines to reduce the total build and deploy time by 30% saving 25 man-hours"
+            "Migrated PL/SQL hospitality product to AWS cloud; created core microservices with Node.js and Express.",
+            "Containerized services using Docker and deployed on Amazon EKS using Kubernetes.",
+            "Enhanced UI in Angular to reduce task clicks and improve efficiency.",
+            "Optimized CI/CD pipeline using Jenkins and Groovy, cutting build time by 30%."
           ]
         }
+      ]
+    },
+    {
+      "company": "Dish",
+      "location": "Hyderabad, India",
+      "position": "Software Engineer",
+      "duration": "Jul 2019 – Dec 2020",
+      "responsibilities": [
+        "Built a content discovery microservice using AWS Lambda for streaming users.",
+        "Developed customer support microservices with AWS Connect and Lambda.",
+        "Implemented observability using AWS CloudWatch for 10+ microservices."
       ]
     }
   ],
   "competencies": {
-    "languages": ["Java", "Python", "JavaScript", "CalScript", "SQL", "Bash Scripting", "HTML", "CSS"],
-    "frameworks": ["Flask", "Django", "Spring", "SpringBoot", "React", "Redux/Context API", "BootStrap CSS", "tailwind CSS"],
-    "cloud": ["Amazon Web Services", "AWS CLI", "S3"],
-    "skillset": ["Algorithms", "Data Structures", "microservices", "REST webservices", "Scrum and Kanban"],
-    "libsAndTechStacks": ["AWS", "AWS CLI", "Bash Scripting", "S3 Management", "Cloud computing", "Cloud practitioner", "Spring boot", "Django Rest", "MVC", "Microservices", "CI/CD", "Angular", "React", "SciPy", "Pandas", "NumPy", "Jenkins CI/CD", "Kubernetes", "Docker", "Oracle DB", "PostgresSQL", "MySQLDB", "Mongo DB", "Tomcat", "Weblogic server", "SQLAlchemy", "MongoDB"]
+    "languages": ["Java", "Python", "JavaScript", "SQL", "Bash Scripting", "HTML", "CSS"],
+    "frameworks": ["Flask", "Django", "Spring", "Spring Boot", "React", "Redux/Context API", "Bootstrap CSS", "tailwind CSS", "Angular"],
+    "cloud": ["Amazon Web Services", "Azure", "GCP", "AWS CLI", "S3 Management", "Cloud computing", "Cloud practitioner", "Amazon EKS", "ECS", "Docker"],
+    "skillset": ["Algorithms", "Data Structures", "Problem-solving", "architecture design", "microservices", "REST webservices"],
+    "libsAndTechStacks": [
+      "Spring boot", "Django Rest", "MVC", "CI/CD", "Angular", "React", "SciPy", "Pandas", "NumPy", "Jenkins", "Kubernetes",
+      "Docker", "Oracle DB", "PostgreSQL", "MySQL DB", "Mongo DB", "Tomcat", "WebLogic server", "SQL Alchemy",
+      "Git", "GitHub", "JIRA", "Agile", "Scrum", "Kanban"
+    ]
   },
   "education": [
     {
@@ -91,15 +108,11 @@
   "projects": [
     {
       "name": "GERRNCART E-commerce Shopping site",
-      "description": "Created a full-fledged online shopping website using the MERN stack (MongoDB, Express.js, React, Node.js). Implemented JWT authentication, Stripe payment gateway, product filtering, shopping cart, and admin dashboard for inventory management. Built with TailwindCSS and Material UI components."
+      "description": "Created a grocery shopping website using the MERN stack with JWT authentication, Stripe payment, cart, inventory, and admin dashboard using Tailwind and Material UI."
     },
     {
       "name": "YouTube Clone",
-      "description": "Implemented an end-to-end clone of YouTube with video streaming, commenting feature, and subscriptions to channels. Employed React as the front-end technology and Redux for managing state, and the YouTube API for fetching data. Implementing responsive layout using CSS Grid and Flexbox."
-    },
-    {
-      "name": "Personal Portfolio Website",
-      "description": "Developed and crafted a professional portfolio showcasing projects and skills. Constructed with React frontend, Node.js backend, MongoDB for contact form submissions, and Express.js API routing. Implemented animations responsive layout with CSS Grid."
+      "description": "End-to-end clone of YouTube using React and Redux, YouTube API for data, and responsive layout using CSS Grid and Flexbox."
     },
     {
       "name": "Reusable React Components",
@@ -107,42 +120,41 @@
       "components": [
         "Interactive Accordion with customizable styling and animation options.",
         "Star Rating system with half-star support and interactive hover effects.",
-        "Todo List application with local storage persistence, and category filtering.",
-        "Random Color Generator which generates random color palettes in both Hex and RGB formats."
+        "Todo List with local storage persistence and filtering.",
+        "Random Color Generator in Hex and RGB formats."
       ]
     },
     {
       "name": "Chef Claude AI",
-      "description": "Developed a smart recipe generator application that produces customized recipes with ingredients entered by users. Integrated Claude AI API for recipe generation. Built with React, Express.js, Node.js, and styled with Tailwind CSS for a responsive and modern UI."
+      "description": "Built a recipe generator using Claude AI and prompt engineering with React, Node.js, Express, and styled using Tailwind and Material CSS."
     },
     {
       "name": "Deep Learning Model for CIFAR-100 Image Classification",
       "description": [
-        "This project aims to develop a custom image classification model for the CIFAR-100 dataset by experimenting with deep learning models such as VGG16, ResNet, and Inception.",
-        "It uses techniques like transfer learning, hyperparameter tuning (learning rate, batch size), and data augmentation to optimize model performance.",
-        "The performance of the model is measured by accuracy, precision, recall, F1-score, and cross-validation, and compared with state-of-the-art approaches"
+        "Built image classifiers using VGG16, VGG-19, and ResNet for CIFAR-100.",
+        "Applied transfer learning, hyperparameter tuning, and data augmentation.",
+        "Achieved 0.85 F1-score using evaluation metrics and cross-validation."
       ]
     },
     {
       "name": "AWS S3 Automation Using Bash",
       "description": [
-        "Implemented Bash scripts to create, remove, and update S3 buckets, reflecting a good hand on AWS CLI and automation tools.",
-        "S3 bucket and local directory file synchronization automation to enable data storage procedures.",
-        "Utilized a Bash script to list objects in S3 buckets, making it easy to access stored data and manage information conveniently.",
-        "Better understanding of Bash scripting best practices and cloud storage solutions."
+        "Wrote Bash scripts to manage S3 buckets using AWS CLI.",
+        "Automated file sync between local and S3 buckets for backups.",
+        "Used scripting for listing and managing stored data efficiently."
       ]
     }
   ],
   "achievementsAndCertifications": [
-    "Networks and Deep Learning – Deep learning AI",
     "AWS Cloud Practitioner",
     "Certified python developer (Hacker rank)",
+    "Networks and Deep Learning – Deep learning AI",
     "Bash Basic Certificate (Hacker rank)",
     "SQL Basic Certificate (Hacker Rank)",
-    "Led of team of 50 to win silver in Entrepreneur Summit - national level, at IIT Bombay",
-    "Governed 3 sectors retail, event management, treasury, as President of DAKSHAT, Entrepreneur Development cell in college",
-    "Served as convenor for CVSR college cultural fest 2018 managing 12 different committees for various tasks",
-    "Won Silver in D-Zone arena 2k18, inter college state level table tennis championship",
-    "Headed Tech-Workshop under Institute of electronics and telecommunications (IETE) for 200 students on robotics"
+    "Led team of 50 to win silver in Entrepreneur Summit at IIT Bombay",
+    "President of DAKSHAT, managing 3 sectors: retail, event management, treasury",
+    "Convenor of CVSR college cultural fest 2018, managing 12 committees",
+    "Won Silver in D-Zone arena 2k18, inter college table tennis championship",
+    "Headed Tech-Workshop under IETE for 200 students on robotics"
   ]
 }

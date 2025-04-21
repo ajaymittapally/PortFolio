@@ -3,15 +3,17 @@ import { useState } from "react";
 import emailjs from "emailjs-com";
 
 
+const SERVICE_ID="service_67zd4mr";
+const TEMPLATE_ID="template_jb904zc"; 
+const PUBLIC_KEY="LFdlqVHC3GtE1s14g";
+
 export default function Contact(){
   const [formData, setFormData] = useState({
     name: "",
     email: "",
     message: "",
   });
-  const SERVICE_ID = "service_67zd4mr";
-    const TEMPLATE_ID = "template_jb904zc"; 
-    const PUBLIC_KEY="LFdlqVHC3GtE1s14g";
+ 
 
   const handleSubmit = (e) => {
     e.preventDefault();
