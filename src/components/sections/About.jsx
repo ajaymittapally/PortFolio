@@ -19,9 +19,7 @@ export default function About() {
                     transition-all duration-300">
                     <div className="absolute inset-0 bg-gradient-to-br from-purple-500/10 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300"/>
                     <p className="text-gray-300 text-lg leading-relaxed text-gambetta">
-                        I'm Ajay Mittapally, a full-stack Software Engineer with a Master's in Computer Science from Kennesaw State University and 5+ years of experience building scalable web applications. I specialize in React.js, Node.js, Java Spring Boot, and Python, with strong skills in AWS, microservices, and performance optimization.
-                        Currently, I work at Quartet AI, where I focus on modern web architecture using Next.js and React Query. My past roles at Datics and Tata Consultancy Services involved designing REST APIs, optimizing UI performance, and deploying cloud-native solutions.
-                        Outside of work, I love building side projects—from e-commerce platforms to AI-powered tools—and continuously exploring new tech.
+                       {resumeData.AboutInfo}
 
                     </p>
                 </div>

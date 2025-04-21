@@ -11,6 +11,7 @@
   },
   "HomeInfo":"Experienced Full Stack Developer with 5 years of expertise in crafting high-performance websites. Combining deep knowledge of UI libraries (React, Next.js) with strong backend capabilities (Java Spring Boot, Node, Express) and AWS to deliver responsive, scalable solutions that delight users. Committed to writing modular, fully tested code using industry-standards. Proven track record of delivering solutions that exceed both technical requirements and user expectations.",
   "FooterInfo":"Full Stack developer",
+  "AboutInfo":"I'm Ajay Mittapally, a full-stack Software Engineer with a Master's in Computer Science from Kennesaw State University and 5+ years of experience building scalable web applications. I specialize in React.js, Node.js, Java Spring Boot, and Python, with strong skills in AWS, microservices, and performance optimization. Currently, I work at Quartet AI, where I focus on modern web architecture using Next.js and React Query. My past roles at Datics and Tata Consultancy Services involved designing REST APIs, optimizing UI performance, and deploying cloud-native solutions. Outside of work, I love building side projects—from e-commerce platforms to AI-powered tools—and continuously exploring new tech.",
   "workExperience": [
     {
       "company": "Quartet AI",
