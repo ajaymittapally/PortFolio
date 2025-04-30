@@ -63,17 +63,6 @@
           ]
         }
       ]
-    },
-    {
-      "company": "Dish",
-      "location": "Hyderabad, India",
-      "position": "Software Engineer",
-      "duration": "Jul 2019 – Dec 2020",
-      "responsibilities": [
-        "Built a content discovery microservice using AWS Lambda for streaming users.",
-        "Developed customer support microservices with AWS Connect and Lambda.",
-        "Implemented observability using AWS CloudWatch for 10+ microservices."
-      ]
     }
   ],
   "competencies": {
