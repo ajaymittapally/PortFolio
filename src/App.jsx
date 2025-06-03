@@ -10,7 +10,7 @@ import About from './components/sections/About';
 import Projects from './components/sections/Projects';
 import Contact from './components/sections/Contact';
 import Footer from './components/Footer';
-import GhostCursor from './components/GhostCursor';
+
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -34,7 +34,7 @@ function App() {
         isLoading ? "opacity-0" : "opacity-100"} 
         bg-black text-gray-100 relative`}>
 
-        <GhostCursor/>
+   
         <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
         <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
         
